@@ -1,5 +1,20 @@
 # token-vesting
 
+This app was build by following projet8 from the video tutorial on Solana's youtube channel.
+[Name: Solana Bootcamp 2024 - Project 1-9](https://youtu.be/amAq-WHAFs8?t=20896)
+
+I have managed to use the following packages an make it work.
+  "@coral-xyz/anchor": "^0.30.0",
+  "anchor-bankrun": "^0.5.0",
+  "solana-bankrun": "^0.4.0",
+  "spl-token-bankrun": "^0.2.5",
+
+CLI tooling version:
+  - solana-cli 2.2.19 (src:74a35e19; feat:3073396398, client:Agave)
+  - anchor-cli 0.31.1
+  - cargo 1.88.0 (873a06493 2025-05-10)
+  - node (v24.0.2)
+
 This is a Next.js app containing:
 
 - Tailwind CSS setup for styling
