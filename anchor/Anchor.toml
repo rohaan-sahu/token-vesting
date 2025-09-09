@@ -6,14 +6,19 @@ resolution = true
 skip-lint = false
 
 [programs.localnet]
-counter = "FqzkXZdwYjurnUKetJCAvaUw5WAqbwzU6gZEwydeEfqS"
+vesting = "8MetMYAecnoFbJ4GYpwyU1g1aaCAUT2XaCVfQpU1sPLJ"
 
 [registry]
 url = "https://api.apr.dev"
 
 [provider]
 cluster = "localnet"
-wallet = "~/.config/solana/id.json"
+wallet = "bosREG2WJWT2HTNAgnc4brVM81eqwM3KMXkM39M9nu1.json"
 
 [scripts]
 test = "../node_modules/.bin/jest --preset ts-jest"
+
+[test]
+startup_wait = 10000
+shutdown_wait = 2000
+upgradeable = false
